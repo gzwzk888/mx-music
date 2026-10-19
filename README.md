@@ -6,6 +6,10 @@
 
 **把自己家的 NAS 音乐库和手机本地音乐，装进一个播放器里听。**
 
+> ### [⬇ 下载最新版 APK](https://github.com/gzwzk888/mx-music/releases/latest)
+> 当前版本 **b136** · Android 8.0+ · arm64-v8a · 22.4 MB · [查看更新记录](CHANGELOG.md)
+
+
 个人自用的 Android 音乐播放器，基于开源项目 [LX Music Mobile](https://github.com/lyswhut/lx-music-mobile) 修改。
 针对平板与「本地 + NAS」双音源场景做了较多改动，不是官方版本，也不上架任何应用商店。
 
