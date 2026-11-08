@@ -18,6 +18,25 @@
 - 包名 `cn.mx.music`，可与任何其他播放器共存
 - 系统要求：Android 7.0 及以上（minSdk 21）
 
+## 界面
+
+<p align="center">
+  <img src="screenshots/tablet-library.jpg" width="49%">
+  <img src="screenshots/tablet-player.jpg" width="49%">
+</p>
+<p align="center">
+  <img src="screenshots/tablet-equalizer.jpg" width="49%">
+  <img src="screenshots/tablet-random.jpg" width="49%">
+</p>
+<p align="center">
+  <img src="screenshots/tablet-settings.jpg" width="49%">
+  <img src="screenshots/phone-library.jpg" width="22%">
+</p>
+
+<p align="center"><sub>平板（三星 Tab S8+，2800×1752）与手机竖屏实机截图</sub></p>
+
+---
+
 ## 主要功能
 
 ### 音乐库
