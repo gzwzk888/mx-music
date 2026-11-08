@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  默认禁止明文 HTTP；仅对确认只提供 http 接口的音乐平台域名开口。
+  依据：src 下 355 处 URL 统计，纯 http 域名 38 个，覆盖 酷我/酷狗/网易云/咪咕/QQ/百度。
+
+  ★ NAS / DLNA 例外：局域网媒体服务器（QNAP/MinimServer 等）只提供 http，
+    且地址是不固定的内网 IP，无法用 domain-config 列举；
+    因此 base-config 必须放开明文，否则 fetch 一律 "Network request failed"。
+
+  改动前请务必回归：五个源的 搜索 / 播放 / 歌词 / 封面 + NAS 浏览/播放。
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- 酷我 -->
+        <domain includeSubdomains="true">kuwo.cn</domain>
+        <domain includeSubdomains="true">stsky.cn</domain>
+
+        <!-- 酷狗 -->
+        <domain includeSubdomains="true">kugou.com</domain>
+
+        <!-- 网易云 -->
+        <domain includeSubdomains="true">music.163.com</domain>
+
+        <!-- 咪咕 -->
+        <domain includeSubdomains="true">migu.cn</domain>
+
+        <!-- QQ 音乐 / 百度 -->
+        <domain includeSubdomains="true">taihe.com</domain>
+        <domain includeSubdomains="true">qianqian.com</domain>
+        <domain includeSubdomains="true">ting.baidu.com</domain>
+
+        <!-- MiniLyrics（Crintsoft）歌词搜索/下载：只有 http，没有 https -->
+        <domain includeSubdomains="true">crintsoft.com</domain>
+    </domain-config>
+</network-security-config>

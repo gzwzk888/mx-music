@@ -1,0 +1,48 @@
+# === 依赖 ===
+node_modules/
+.bundle/
+vendor/bundle/
+
+# === 构建产物 ===
+android/app/build/
+android/build/
+android/.gradle/
+android/app/.cxx/
+android/eqpatch/build/
+ios/build/
+ios/Pods/
+*.apk
+*.aab
+*.ap_
+*.ipa
+
+# === 签名（绝对不要提交）===
+android/keystore.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# === 本地配置 ===
+.env
+.env.local
+local.properties
+*.local.json
+
+# === IDE ===
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# === 系统 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === 日志与临时 ===
+*.log
+npm-debug.log*
+yarn-error.log*
+.cache/
+coverage/

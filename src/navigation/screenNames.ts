@@ -1,0 +1,10 @@
+export const HOME_SCREEN = 'lxm.HomeScreen'
+export const PLAY_DETAIL_SCREEN = 'lxm.PlayDetailScreen'
+export const SONGLIST_DETAIL_SCREEN = 'lxm.SonglistDetailScreen'
+export const VERSION_MODAL = 'lxm.VersionModal'
+export const PACT_MODAL = 'lxm.PactModal'
+export const LANG_SELECT_MODAL = 'lxm.LangSelectModal'
+export const SYNC_MODE_MODAL = 'lxm.SyncModeModal'
+// export const SETTING_SCREEN = 'lxm.SettingScreen'
+// export const TOAST_SCREEN = 'lxm.ToastScreen'
+
